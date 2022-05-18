@@ -1,6 +1,7 @@
 services:
     firefox:
         image: eecs388/firefox
+        restart: always
         # Allocate sufficient memory to the Firefox GUI process.
         # If your machine is running out of memory, you might try decreasing this,
         # though Firefox may run into instability if you do so.
